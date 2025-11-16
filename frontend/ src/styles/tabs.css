@@ -1,1 +1,27 @@
 
+.tab-bar {
+  display: flex;
+  background: #222;
+  padding: 4px;
+}
+
+.tab {
+  background: #333;
+  padding: 6px 12px;
+  margin-right: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tab.active {
+  background: #555;
+}
+
+.tab button {
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 6px;
+  cursor: pointer;
+}
